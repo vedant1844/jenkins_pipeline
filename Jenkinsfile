@@ -4,7 +4,7 @@ pipeline {
        stages {
            stage('Build') {
                steps {
-                   git url: 'https://github.com/yourusername/java-docker-jenkins.git', branch: 'main'
+                   git url: 'https://github.com/vedant1844/jenkins_pipeline.git', branch: 'main'
                    sh 'mvn clean install'
                }
            }
